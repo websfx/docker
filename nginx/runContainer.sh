@@ -7,7 +7,7 @@ ALPINE_VERSION="3.18"
 docker stop nginx > /dev/null
 docker rm nginx > /dev/null
 
-docker pull websfx/nginx:1.25.1-alpine-3.18
+docker pull websfx/nginx:${NGINX_VERSION}-alpine${ALPINE_VERSION}
 docker run -d -p 80:80 -p 443:443 --name nginx websfx/nginx:${NGINX_VERSION}-alpine${ALPINE_VERSION}
 
 #docker logs -f nginx
