@@ -1,0 +1,5 @@
+.DS_Store
+docker/nginx/moudle/*
+moudle.tar.gz
+.idea/
+.*.log
