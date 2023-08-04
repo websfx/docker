@@ -1,5 +1,10 @@
-# docker
-Nginx 1.25.1 jemalloc
+# docker Nginx 1.25.1 
+```
+chmod +x runContainer.sh && ./runContainer.sh
+```
+
+
+
 <pre>
 nginx-1.25.1
 zlib-1.2.13
