@@ -1,7 +1,7 @@
 # 使用一个阶段为构建器，用于编译和安装Nginx
 FROM alpine:3.18 AS builder
 
-LABEL maintainer="sunwei<service@fooher.com>" version="1.0" license="MIT" app.name="YunWei Nginx" description="Portlands Nginx HTTP/2"
+LABEL maintainer="sunwei<service@neieni.com>" version="1.0" license="MIT" app.name="YunWei Nginx" description="Portlands Nginx HTTP/2"
 
 ENV NGINX_VERSION=1.25.1 \
     OPENSSL_VERSION=1.1.1u \
